@@ -1,0 +1,19 @@
+  1 : ba -> ab
+  2 : cb -> bc
+  3 : ca -> ac
+
+--- : abcbab
+
+abcbab
+   ba -1-> ab
+abcabb
+  ca -3-> ac
+abacbb
+ ba -1-> ab
+aabcbb
+   cb -2-> bc
+aabbcb
+    cb -2-> bc
+***__NO_MORE_RULES__***
+
+aabbbc

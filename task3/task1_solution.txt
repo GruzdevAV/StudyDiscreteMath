@@ -1,0 +1,47 @@
+  1 : a^a -> ^aa
+  2 : a^b -> ^ba
+  3 : b^a -> ^ab
+  4 : b^b -> ^bb
+  5 : ^ -> 
+  6 : |a -> ^a|
+  7 : |b -> ^b|
+  8 : | ->  x
+  9 :  -> |
+
+--- : bbab
+
+bbab
+ -9-> |
+|bbab
+|b -7-> ^b|
+^b|bab
+^ -5-> 
+b|bab
+ |b -7-> ^b|
+b^b|ab
+b^b -4-> ^bb
+^bb|ab
+^ -5-> 
+bb|ab
+  |a -6-> ^a|
+bb^a|b
+ b^a -3-> ^ab
+b^ab|b
+b^a -3-> ^ab
+^abb|b
+^ -5-> 
+abb|b
+   |b -7-> ^b|
+abb^b|
+  b^b -4-> ^bb
+ab^bb|
+ b^b -4-> ^bb
+a^bbb|
+a^b -2-> ^ba
+^babb|
+^ -5-> 
+babb|
+    | -8-> 
+***__FINAL_RULE__***
+
+babb

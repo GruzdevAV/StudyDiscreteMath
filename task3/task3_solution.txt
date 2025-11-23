@@ -1,0 +1,26 @@
+  1 : ba -> ab
+  2 : ab -> 
+
+--- : abaabaab
+
+abaabaab
+ ba -1-> ab
+aababaab
+  ba -1-> ab
+aaabbaab
+    ba -1-> ab
+aaababab
+   ba -1-> ab
+aaaabbab
+     ba -1-> ab
+aaaababb
+    ba -1-> ab
+aaaaabbb
+    ab -2-> 
+aaaabb
+   ab -2-> 
+aaab
+  ab -2-> 
+***__NO_MORE_RULES__***
+
+aa
